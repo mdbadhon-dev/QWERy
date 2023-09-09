@@ -1,0 +1,419 @@
+   /* =======================
+         COMMON CSS START
+     ==================  */
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }
+     a{
+        text-decoration: none;
+        display: inline-block;
+     }
+     ul,ol{
+        list-style: none;
+     }
+     h1,h2,h3,h4,h5,h6,p{
+        line-height: 0.8;
+     }
+     .container{ 
+        width: 1320px;
+        margin: 0 auto;   
+     }
+     
+   /* =======================
+          COMMON CSS END
+     ==================  */
+
+
+   /* =======================
+          NAVBAR CSS START
+     ==================  */
+
+     #navbar{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+       
+     }
+     .logo{
+        width: 20%;
+  
+     }
+     .nav-items{
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;   
+    }
+    .nav-wrapper{
+        display: flex;
+        padding-top: 28px;
+    }
+    .nav-items ul{
+        display: flex;
+        
+    }
+    .nav-items ul li a{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 600;
+        color: #ffffff;
+        margin-right: 30px;
+        margin-left: 30px;
+        text-transform: capitalize;
+        transition: all linear 0.5s;
+    }
+    .nav-items ul li:last-child a{
+        margin-right: 0px;
+
+    }
+    .nav-items ul li a:hover{
+        color: #000;
+
+    }
+    
+   /* =======================
+          NAVBAR CSS END
+     ==================  */
+
+   /* =======================
+          BANNER PART CSS START
+     ==================  */
+
+     #banner{
+        background: url(../images/banner.jpg);
+        padding: 462px 0px;
+        background-position: center; 
+        background-repeat: no-repeat; 
+        background-size: cover;  
+     }
+     
+     .banner-details p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #FFC178;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+        padding-bottom: 38px;
+     }
+
+    .banner-details h1{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 96px;
+        font-weight: 700;
+        color: #ffffff;
+
+    }
+     .banner-details h1 span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 88px;
+        font-weight: 400;
+        line-height: 100px;
+        color: #ffffff;
+        display: block;
+     }
+   /* =======================
+          BANNER PART CSS END
+     ==================  */
+
+   /* =======================
+          HOLIDAY PART CSS START
+     ==================  */
+
+     #holiday{
+        padding-top: 286px;
+        padding-bottom: 295px;
+        background: rgb(0, 0, 0);    
+     }
+     .holiday-wrapper{
+        display: flex;
+     }
+     .holiday-text{
+        margin-left: 143px;
+        padding-top: 47px;
+     }
+     .holiday-text h5{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #FBD784;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+     }
+     .holiday-text h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 64px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 87px;
+        text-transform: uppercase;
+     }
+     .holiday-text p{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #ffffff;
+        text-transform: uppercase;
+        line-height: 32px;
+        width: 587px;
+     }
+     .holiday-text a {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #FBD784;
+        margin-top: 25px;
+      }
+
+   /* =======================
+          HOLIDAY PART CSS END
+     ==================  */
+
+   /* =======================
+          STEADY PART CSS START
+     ==================  */
+       #steady{
+       background: #000;
+       }
+      .bormo{
+       position: relative;
+       }
+      .text{
+       position: absolute;
+       bottom: 42%;
+       left: 50%;
+       transform: translate(-50%, 100%);
+       }
+      .text h3{
+        color: #FBD784;
+        font-size: 18px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 13px;  
+      }
+     .text h1{
+        width: 932px;
+        color: #ffffff;
+        font-size: 64px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 6px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 14px;
+        line-height: 75px;    
+     }
+     .text p{
+        color: #FFF;
+        width: 893px;
+        text-align: center;
+        font-size: 15px;
+        font-family: Open Sans;
+        line-height: 32px;
+        text-transform: uppercase;   
+     }
+     .text a{
+        color: #FBD784;
+        font-size: 18px;
+        font-family: Open Sans;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-top: 26px;
+        position: absolute;
+        left: 44%;
+     }
+
+
+   /* =======================
+          STEADY PART CSS END
+     ==================  */
+
+
+   /* =======================
+          CULTURE PART CSS START
+     ==================  */
+    
+     #culture{
+      padding-top: 295.08px;
+      padding-bottom: 199px;
+      background: black;
+    }
+   .culture-wrapper{
+      display: flex;
+      align-items: center;        
+    }
+   .culture-text{
+      margin-right: 37px;
+      padding-top: 47px;     
+   }
+   .culture-text h3{
+      color: #FBD784;
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif; 
+      font-weight: 700;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      margin-bottom: 19px;
+   }
+   .culture-text h1{
+      color: #FFF;
+      font-size: 64px;
+      font-family: 'Open Sans', sans-serif; 
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 87px;   
+   }
+   .culture-text p{
+      color: #FFF;
+      font-size: 18px;
+      line-height: 32px;
+      font-family: 'Open Sans', sans-serif; 
+      text-transform: uppercase;
+      margin-bottom: 47px;      
+   }
+   .culture-text a {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #FBD784;
+      margin-top: 10px;
+      text-transform: uppercase;
+   }
+
+   /* =======================
+          CULTURE PART CSS END
+     ==================  */
+
+
+
+   /* =======================
+          FOOTER PART CSS START
+     ==================  */
+     #footer{
+      background: #000;
+      padding-top: 200px;
+     }
+     .footer-top{
+      display: flex;
+      justify-content: space-between;
+     }
+     .footer-top-right{
+      display: flex;
+      align-items: center;
+     }
+     .footer-top-right p{
+      color: #fff;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: -0.3px;
+      text-transform: capitalize;
+
+     }
+     .footer-top-button button{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 17px;
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 18px 67px;
+      background: #FFA343;
+      color: #000;
+      margin-left: 18px;
+     }
+     .footer-bottom{
+      display: flex;
+      padding-top: 80px;
+      padding-bottom: 150px;;
+     }
+     .footer-bottom-left{
+      width: 50%;
+     }
+     .footer-bottom-left h2{
+      width: 405px;
+      line-height: 49px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #fff
+      
+     }
+     .footer-bottom-left p{
+      font-family: 'Open Sans', sans-serif;
+      padding-top: 36px;
+      padding-bottom: 48px;
+      color: #fff
+     }
+     .footer-bottom-right{
+      width: 50%;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+     }
+     .footer-service h5{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #FFD1A0;
+      padding-bottom: 38px;
+     }
+     .footer-service ul li a{
+      color: #FFF;
+      font-size: 19px;
+      font-weight: 400;
+      padding-bottom: 30px;
+     }
+     .footer-about h5{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #FFD1A0;
+      padding-bottom: 38px;
+     }
+     .footer-about ul li a{
+      color: #FFF;
+      font-size: 19px;
+      font-weight: 400;
+      padding-bottom: 30px;
+     }
+     .footer-help h5{
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-size: 20px;
+      color: #FFD1A0;
+      padding-bottom: 38px;
+     }
+     .footer-help ul li a{
+      color: #FFF;
+      font-size: 19px;
+      font-weight: 400;
+      padding-bottom: 30px;
+     }
+     .footer-icon i{
+      color: #fff;
+      font-size: 30px;
+      margin-right: 20px;
+
+     }
+     .copyright{
+      padding-bottom: 30px;
+     }
+     .copyright p{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      text-align: center;
+      color: #fff;
+      opacity: 0.5;
+
+     }
+     
+   /* =======================
+          FOOTER PART CSS END
+     ==================  */
